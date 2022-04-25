@@ -1,0 +1,302 @@
+@font-face {
+    font-family: Philosopher-Regular; 
+    src: url(fonts/Philosopher-Regular.ttf);
+   }
+@font-face {
+	font-family: Philosopher-Bold;
+	src:  url(fonts/Philosopher-Bold.ttf);
+	}
+@font-face {
+	font-family: Roboto-Regular;
+	src:  url(fonts/Roboto-Regular.ttf);
+   }
+@font-face {
+	font-family: Roboto-Medium;
+	src:  url(fonts/Roboto-Medium.ttf);
+   }
+@font-face {
+	font-family: Roboto-Italic;
+	src:  url(fonts/Roboto-Italic.ttf);
+   }
+@font-face {
+	font-family: fa-regular-400;
+	src:  url(fonts/fa-regular-400.ttf);
+	}
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 1920px;
+}
+header {
+	background-color: #008daa;
+	color: #d4d0c8;
+	padding: 35px 375px;
+}
+.shadow {
+	position: relative;
+	box-shadow: 0 10 32 rgba(12, 13, 13, 0.7)!important;
+}
+.nav-menu {
+	width: 272px;
+}
+.nav-menu-link {
+	color: #d4d0c8;
+}
+.nav-menu-link:hover {
+	text-decoration: underline;
+	color: #eeeeed;
+	cursor: pointer;
+}
+.nav-image {
+	width: 50px;
+	height: 50px;
+}
+.nav-image:hover {
+	cursor: pointer;
+	filter: grayscale(100%) contrast(120%);
+}
+.nav-menu > li {
+	list-style-type: none;
+}
+.section_first {
+	height:  979px;
+	padding: 20px 375px 0 375px;
+	background-color: #eeeeed;
+}
+.section {
+	height: 1080px;
+	padding: 0 375px 0 375px;;
+}
+.section:nth-child(even) {
+	background-color: #eeeeed;
+}
+.section:nth-child(odd) {
+	background-color: #ffffff;
+}
+.main-image {
+	height: 650px;
+	width: 800px;
+	margin-top: 200px;
+	position: absolute;
+}
+.menu {
+	color: #06bac5;
+	width: 509px;
+	font-size: 18px;
+}
+.menu-link {
+	color: #06bac5;
+}	
+.menu-link:hover {
+	color: #eb477b;
+	cursor: pointer;
+}
+.menu > li:nth-child(1) {
+	list-style-type: none;
+}
+.course_name {
+	color: #005c7d;
+	margin-top: 135px;
+}
+.course_header {
+	font-family: Philosopher-Regular;
+	font-size: 50px;
+}
+.course_hours {
+	font-family: Roboto-Regular;
+	color: #005c7d;
+	font-size: 20px;
+}
+.enter_course_btn {
+	font-family: Roboto-Regular;
+	background-color: #005c7d;
+	color: #eeeeed;
+}
+.enter_course_btn:hover {
+	cursor: pointer;
+	background-color: #eb477b;
+	color: #eeeeed;
+}
+.section > h1 {
+	font-family:Philosopher-Bold;
+	color:  #005c7d;
+	margin-bottom: 110px;
+}
+.about_course_info {
+	font-family: Roboto-Regular;
+	color: #005c7d;
+	font-size: 25px;
+	margin-bottom: 130px;
+}
+.info_section {
+	width: 310px;
+}
+.img_info {
+	width: 95px;
+	height: 90px;
+}
+.description {
+	font-family: Philosopher-Regular;
+	color: #005c7d;
+}
+.description_info {
+	font-family: Roboto-Medium;
+	color: #06bac5;
+	font-size: 18px;
+}
+.section_list {
+	font-family: Roboto-Regular;
+	color:#005c7d;
+	font-size: 24px;
+	padding-left: 280px;
+}
+.list_marker {
+	width: 30px;
+	height: 30px;
+	margin-bottom: 70px;
+}
+
+.question {
+	font-family: Philosopher-Bold;
+	font-size: 24px;
+	border: none;
+	background-color: #ffffff;
+	justify-content: start;
+}
+.question:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	text-decoration-color: #06bac5;
+}
+
+.question:before {
+	content: '';
+	background: url('img/icon-03b.png') left/15px no-repeat;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+}
+
+.question:after {
+	content: none;
+}
+
+/*.question:not(.collapsed) {
+	color: unset !important;
+	background-color: unset !important;
+	box-shadow: none;
+}*/
+
+.question:focus {
+	outline: none;
+	border: none;
+	box-shadow: none;
+}
+
+.question:not(.collapsed):before {
+	content: '';
+	/*Либо заменить на другую, либо развернуть*/
+	background: url('img/icon-03a.png') left/15px no-repeat;
+	transform: none;
+	/*transform: rotate(180deg) translate(50%, 0);*/
+}
+.question span {
+	color: #06bac5;
+}
+
+.answer {
+	font-family: Roboto-Italic;
+	color: #005c7d;
+}
+.add_question {
+	font-family:Philosopher-Bold;
+	color: #06bac5;
+	margin-top: 70px;
+}
+.add_answer {
+	margin-top: 60px;
+}
+
+.add_answer1 {
+	font-family:Philosopher-Bold;
+	color: #005c7d;
+}
+.add_answer1:hover {
+	color: #eb477b;
+	cursor: pointer;
+}
+.carousel-inner {
+	width: 70%;
+	margin:0 auto;
+}
+.feedback {
+	font-family: Roboto-Italic;
+	color: #005c7d;
+	font-size: 20px;
+}
+.feedback_info {
+	font-family:Philosopher-Regular;
+	color: #06bac5;
+	font-size: 30px;
+}
+.carousel-control-next-icon{
+	background-image: url('img/icon-04b.png');
+	width: 50px;
+	height: 50px;
+}
+.carousel-control-prev-icon{
+	background-image: url('img/icon-04a.png');
+	width: 50px;
+	height: 50px;
+}
+.study_center, .social_media {
+	font-family: Roboto-Medium;
+	color: #005c7d;
+	font-size: 24px ;
+}
+.img_arrow {
+	width: 240px;
+	height: 60px;
+}
+.link_mainSite {
+	font-family: Roboto-Medium;
+	color: #06bac5;
+	font-size: 24px;
+	margin-bottom: 150px;
+}
+.link_mainSite:hover {
+	cursor: pointer;
+	color: #eb477b ;
+}
+.navbar-nav{
+	width: 570px;
+}
+.navbar-image {
+	width:60px;
+	height: 60px;
+}
+.navbar-image:hover {
+	cursor: pointer;
+	filter: hue-rotate(140deg);
+}
+footer {
+	height: 180px;
+	background-color: #008daa;
+	padding: 30px 375px;
+}
+
+.footer_info {
+	font-family: Roboto-Regular;
+	color: #eeeeed;
+	font-size: 22px;
+}
+.personal_data {
+	font-size: 16px;
+	color: #eeeeed;
+}
+
+.personal_data:hover {
+	cursor: pointer;
+	color: #ffffff;
+}
